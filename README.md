@@ -210,7 +210,19 @@ Several diseases are associated with the malfunction of certain genes or protein
 
 The features that communicate with UniProt Knowledgebase use UniProtR, an R package for data retrieval and visualization from UniProt [[Soudy 2020](https://pubmed.ncbi.nlm.nih.gov/31843688/)]. Since all the bioinformatics features only accept gene names (gene symbol) or UniProt accessions, we provide the users on each page with links to two ID converters UniProt ID mapping [[UniProt Consortium 2019](https://pubmed.ncbi.nlm.nih.gov/30395287/)] and g:Convert [[Raudvere 2019](https://doi.org/10.1093/nar/gkz369)] to convert their identifiers to gene names or UniProt accessions. 
 
+### Single Cell Analysis
 
+Single cell analysis is a cutting-edge technique that allows researchers to study the genetic, transcriptomic, proteomic, and metabolic characteristics of individual cells, as opposed to bulk analysis where data is averaged over a large number of cells. This approach provides a high-resolution view of cellular heterogeneity within a population, revealing insights into cellular function, differentiation, and disease mechanisms that would otherwise be obscured.
+
+Select the Raw Count/Expression Matrix tab to do analysis on a single file
+CCA Integration is used to do integrated analysis on multiple files.
+Differential Expression tab allows the user to view the DE Genes across a single file or multiple files and conditions.
+The Monocle3 workflow is used for trajectory analysis of cells
+If you want to save the analysis, you may use the Save tab and save the RDS file for later use.
+
+### RDS Analysis
+
+Re-Running an SC-Analysis can be daunting, so if you have obtained the RDS file, you can easily input that and get all the relevant plots and information from it using the tabs present under the RDS Analysis tab.
 
 ## Download instructions
 1. Scatter plot, distribution fit, correlation plot and heatmap can be saved as PDF by clicking `Download as PDF`. You can name the file before saving it. Also, you can directly drag the plot from the GUI to a folder on the computer.
