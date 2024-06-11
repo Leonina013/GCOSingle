@@ -214,11 +214,15 @@ The features that communicate with UniProt Knowledgebase use UniProtR, an R pack
 
 Single cell analysis is a cutting-edge technique that allows researchers to study the genetic, transcriptomic, proteomic, and metabolic characteristics of individual cells, as opposed to bulk analysis where data is averaged over a large number of cells. This approach provides a high-resolution view of cellular heterogeneity within a population, revealing insights into cellular function, differentiation, and disease mechanisms that would otherwise be obscured.
 
-Select the Raw Count/Expression Matrix tab to do analysis on a single file
-CCA Integration is used to do integrated analysis on multiple files.
-Differential Expression tab allows the user to view the DE Genes across a single file or multiple files and conditions.
-The Monocle3 workflow is used for trajectory analysis of cells
-If you want to save the analysis, you may use the Save tab and save the RDS file for later use.
+-Select the Raw Count/Expression Matrix tab to do analysis on a single file
+
+-CCA Integration is used to do integrated analysis on multiple files.
+
+-Differential Expression tab allows the user to view the DE Genes across a single file or multiple files and conditions.
+
+-The Monocle3 workflow is used for trajectory analysis of cells
+
+-If you want to save the analysis, you may use the Save tab and save the RDS file for later use.
 
 ## RDS Analysis
 
